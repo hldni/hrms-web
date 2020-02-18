@@ -2,7 +2,7 @@
   <transition name="fade">
     <div class="message" :class="type" v-if="visible">
       <i class="icon-type iconfont" :class="'icon-'+type"></i>
-      <div class="content">{{content}}
+      <div class="content">{{content}}d
         <i v-if="hasClose" class="btn-close iconfont icon-close" @click="visible=false"></i>
       </div>
     </div>
